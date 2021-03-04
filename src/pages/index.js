@@ -57,7 +57,7 @@ export const query = graphql`
         id
         title
         category
-        Image {
+        image {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
